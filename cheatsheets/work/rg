@@ -1,0 +1,2 @@
+# Output the file name only, won't give any other
+rg -l [filename]
