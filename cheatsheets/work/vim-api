@@ -1,0 +1,17 @@
+# Read the current buffer's line
+# As a table
+# params {buffer}, {start}, {end}, {strict_indexing}
+vim.api.nvim_buf_get_lines(0, 0, -1, false)
+
+# Set the lines for the current buffer
+# params {buffer}, {start}, {end}, {strict_indexing}, {replacement}
+vim.api.nvim_buf_set_lines(0, 0, -1, false, { "line1", "line2" })
+
+# Set the keymap in vim
+# params {mode}, {lhs}, {rhs}, {opts}
+# rhs can be functions, can be existing actions
+vim.keymap.set("n", "<leader>ff", ":Format<CR>")
+
+# Close the current window
+# params {buffer}, {force}
+vim.api.nvim_win_close(0, true)
