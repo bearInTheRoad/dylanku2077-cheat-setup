@@ -1,0 +1,29 @@
+# All + below are just to showcase the syntax group
+# Not something you should type
+# replace a surrounded "" with ''
+<leader>sr+"+'
+
+# replace a surrounded () with []
+# find the nearest match
+<leader>sr+(+[
+
+# delete a surrounded "" or ()
+<leader>sd+"
+<leader>sd+(
+
+# add a surrounded "" or () to the word
+<leader>sa+iw+"
+<leader>sa+iw+(
+
+# add a surrounded "" or () to the paragraph
+<leader>sa+ip+(
+<leader>sa+ip+"
+
+# add a surrounded "" to the sentence
+<leader>sa+is+"
+
+# add a surround "" inside ()
+<leader>sa+i(+"
+
+# find the left (
+<leader>sF+(
