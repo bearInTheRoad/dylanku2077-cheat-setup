@@ -1,0 +1,46 @@
+# l(ist) a.k.a I'm too lazy to open file 
+# with source code
+l
+
+# ll(ist) a.k.a I'm too lazy to open file 
+# with source code and show line numbers
+ll
+
+# s(tep) a.k.a step into a function
+s
+
+# n(ext) a.k.a execute this line and go to next line
+n
+
+# r(un) a.k.a run to end of current function
+r
+
+# c(ontinue) a.k.a continue until breakpoint
+c
+
+# w(here) a.k.a display stack trace
+w
+
+# a(rgs) a.k.a display arguments of current function
+a
+
+# q(uit) a.k.a quit
+q
+
+# b(reak) a.k.a set breakpoint
+b
+
+# e(val) a.k.a evaluate expression
+e
+
+# f(ind) a.k.a find source file
+f
+
+# p(rint) a.k.a print
+p
+
+# pp(rint) a.k.a print pretty
+pp
+
+# !STMT a.k.a execute statement (e.g. !row.append(100))
+!STMT
