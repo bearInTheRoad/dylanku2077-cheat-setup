@@ -5,6 +5,9 @@ Sapce + S -- browse exisitng
 # Replace Surroundings
 Space + s + r + ' + " -- replace a '' with ""
 
-Select a region first then + Space + s + a + ) wraps it in ()
-Space + s + a + i + w + ) wraps it in ()
+Select a region first then + Space + s + a + ) -- wraps it in ()
+Space + s + a + i + w + ) -- wraps it in ()
+
+# Movements
+g + e -- goes back to the end of last word
 
