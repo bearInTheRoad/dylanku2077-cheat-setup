@@ -4,3 +4,6 @@ rg -l [filename]
 rg -g "*.sql" 'pattern' -- search pattern in sql files
 rg -t sql 'pattern'  -- search pattern in sql or psql, t means builtin type
 rg -T sql 'pattern'  -- search pattern excluding sql files
+
+rg 'pattern' --no-ignore   --search all files including git ignored
+rg 'pattern' --hidden      -- search all files including hidden
