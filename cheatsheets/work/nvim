@@ -11,3 +11,5 @@ Space + s + a + i + w + ) -- wraps it in ()
 # Movements
 g + e -- goes back to the end of last word
 
+# Search
+Space + s + w    -- start a snack grep with rigrep on this word
